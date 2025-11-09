@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="welcome.html" method="GET">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Username" required>
+                <i class='bx bx-user'></i> 
+            </div>
+
+            <div class="input-box">
+                <input type="email" name="email" placeholder="email" required>
+                <i class='bx bx-envelope-open'></i> 
+            </div>
+            
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password" required>
+                <i class='bx bx-lock'></i> 
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="confirm password" placeholder="Confirm password" required>
+                <i class='bx bx-lock'></i> 
+            </div>            
+
+            <div class="remember-forgot">
+                <div class="gender">
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </div>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
